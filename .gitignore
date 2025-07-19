@@ -1,0 +1,170 @@
+# Terraform Files
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
+*.tfplan
+*.tfplan.*
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI configuration files
+.terraformrc
+terraform.rc
+
+# Sensitive variable files (keep environment-specific .tfvars)
+# Note: files in environments/ directory are safe to commit
+# as they don't contain sensitive data
+*.auto.tfvars
+*.auto.tfvars.json
+secret.tfvars
+secrets.tfvars
+local.tfvars
+
+# Azure CLI files
+.azure/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Temporary folders
+tmp/
+temp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+desktop.ini
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# Backup files
+*.bak
+*.backup
+
+# Test files
+test-results/
+coverage/
+
+# Documentation build
+docs/_build/
+site/
+
+# Local Terraform modules (if developing locally)
+.terraform-modules/
+
+# Terraform docs
+*.md.backup
+
+# Ansible
+*.retry
+
+# Vagrant
+.vagrant/
+
+# Docker
+.dockerignore
+Dockerfile.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+target/
+
+# Ruby
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+# Keep these files
+!environments/*.tfvars
+!.gitkeep
+!README.md
+!ARCHITECTURE.md
+!.github/workflows/*.yml
