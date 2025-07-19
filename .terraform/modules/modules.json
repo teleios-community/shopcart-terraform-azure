@@ -1,1 +1,0 @@
-{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"nsg","Source":"app.terraform.io/Teleios/nsg/azure","Version":"1.0.0","Dir":".terraform/modules/nsg"},{"Key":"sql","Source":"app.terraform.io/Teleios/sql/azure","Version":"1.0.0","Dir":".terraform/modules/sql"},{"Key":"vnet","Source":"app.terraform.io/Teleios/vnet/azure","Version":"1.0.0","Dir":".terraform/modules/vnet"}]}
